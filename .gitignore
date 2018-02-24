@@ -64,7 +64,7 @@ Thumbs.db
 # -------------[ sample files ]------------------------ #
 Assets/AssetBundleSample/
 Assets/AssetGraph-Examples/
-
+Assets/Plugins/UniRx/Examples/
 
 # -------------[ local test ]------------------------ #
 
