@@ -16,6 +16,14 @@
 
 - 個人githubに公開。
 
+- UniRxをサブモジュールとして追加。
+	- git submodule add https://github.com/neuecc/UniRx Assets/3rdPartySubodules/UniRx
+	- エラーが多発。.net 4.6(experimental)に変更。
+	- Tests周りでエラー。うーん？
+		- まずは場当たりで治せないか試してみる。
+		- DecrementEnumeratorが重複してるので片方コメントアウト。
+		- TestUtils.csが二つあるので、#if !NETFX_COREで始まってる方をコメントアウト。
+		- ……ダメだ！ 新しいエラーが山ほど出てきた。事前情報が足りないのかもしれないけど、UniRxをsubmoduleで追加するのはやめよう。。
 
 ### 20180213
 
