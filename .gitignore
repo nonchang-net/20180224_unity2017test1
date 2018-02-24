@@ -1,0 +1,71 @@
+# 参考：
+# http://qiita.com/hkomo746/items/432ed5b3a3395a804f5f
+# http://naichilab.blogspot.jp/2014/01/git-6sourcetreegitunitygit.html
+# https://github.com/github/gitignore/blob/master/Unity.gitignore
+
+
+# ---------------[ Unity generated ]------------------ #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UnityGenerated/
+#ProjectSettings/*.asset #レイヤ情報が消えてしまうことを確認。
+
+Assets/AssetStoreTools*
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# 20160529 スクショがふくまれているフォルダが生成されていたので除外
+Heapshots/
+
+Assets/UnityEngine.AssetGraph/Cache
+
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+*.tmp
+
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# -------------[ Build ]------------------------ #
+*.html
+*.unity3d
+
+*.apk
+*.unitypackage
+
+# -------------[ VSCode ]------------------------ #
+.vscode/*
+
+# -------------[ sample files ]------------------------ #
+Assets/AssetBundleSample/
+Assets/AssetGraph-Examples/
+
+
+# -------------[ local test ]------------------------ #
+
+Assets/_LocalTest*
